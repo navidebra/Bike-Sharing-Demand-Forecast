@@ -16,7 +16,7 @@ Datetime was broken down into year, month, and hour.
 other categorical variables were set as categories in order for AutoGluon to identify them correctly.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-Significantly better, as features especially time were broken down into smaller parts and represented each observation better.
+Significantly better, as features especially time were broken down into smaller parts and represented each observation better. Consequently, upon adding additional features to the model kaggle score improved almost by 7%, from 1.80 scored by baseline model in kaggle, to 1.68 after feature engineering.
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
@@ -40,4 +40,4 @@ Trying RNN instead of other models and tuning appropriately.
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-Data was fairly cleaned and only needed 2 columns removed ['casual', 'registered] which weren't present in the test dataset, datetime columns needed to be broken down, and highly correlated values could be removed. After preparation and EDA model performance and Kaggle score were highly improved. However, hyperparameter optimization didn't help much. Considering RNN models might be worth the time in this case.
+Data was fairly cleaned and only needed 2 columns removed ['casual', 'registered] whichi weren't present in the test dataset, datetime columns needed to be broken down, and highly correlated values could be removed. After preparation and EDA model performance and Kaggle score were highly improved by 7%. However, hyperparameters optimization didn't help much. Considering RNN models might be worth the time in this case.
