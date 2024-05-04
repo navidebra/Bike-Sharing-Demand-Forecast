@@ -32,7 +32,7 @@ AutoGluon 0.2.0
 * bike-sharing-demand.zip: Competition dataset downloaded from kaggle.
 * [jupyter notebook](project.ipynb): Jupyter notebook containing the project and analysis.
 * [Report](report.md): Report File can be found here.
-* [Model Train Score.png](model_train_score.png), [Model Test Score](model_test_score.png): Containing Visuals for last 3 submissions training performance and kaggle score overview.
+* [Model Train Score.png](model_train_score.png), [Model Test Score.png](model_test_score.png): Containing Visuals for last 3 submissions training performance and kaggle score overview.
 * [sampleSubmission.csv](sampleSubmission.csv): Sample submission file downloaded from Kaggle.
 * [Test.csv](test.csv): Test dataset downloaded from Kaggle.
 * [Train.csv](train.csv): Train dataset downloaded from Kaggle.
